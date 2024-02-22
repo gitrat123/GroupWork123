@@ -1,0 +1,13 @@
+﻿<Window x:Class="zadanie2_prikol.Pages.PageKarpov"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zadanie2_prikol.Pages"
+        mc:Ignorable="d"
+        Title="PageKarpov" Height="450" Width="800" Background="#FFBDD0FF">
+    <Grid>
+        <Button Content="Кнопка" HorizontalAlignment="Center" VerticalAlignment="Center" Height="104" Width="328" Click="Button_Click"/>
+        <TextBlock Name="button1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Текстттт" VerticalAlignment="Top" Height="67" Width="192" FontSize="48" FontWeight="Bold" Margin="0,69,0,0"/>
+    </Grid>
+</Window>
